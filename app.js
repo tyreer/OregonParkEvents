@@ -5,7 +5,7 @@ document.getElementById("getdata").addEventListener("click", makeAJAXRequest)
 function makeAJAXRequest () {
     
     var request = new XMLHttpRequest();
-    var url = "http://oregonstateparks.org/data/index.cfm/parkEvents?descr=";
+    var url = "//oregonstateparks.org/data/index.cfm/parkEvents?descr=";
      
     request.addEventListener("load", writeResponse);
     
